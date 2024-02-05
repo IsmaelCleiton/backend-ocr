@@ -13,8 +13,6 @@ ALLOWED_EXTENSIONS = {'pdf', 'png', 'jpg', 'jpeg'}
 
 RG_FIELDS = {'NOME', 'FILIAÇÃO', 'DATA NASCIMENTO', 'ORGÃO EXPEDIDOR','NATURALIDADE'}
 
-
-
 @app.route('/')
 def home():
     return redirect('/lerdocumento')
